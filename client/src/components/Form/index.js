@@ -12,7 +12,7 @@ function Form({ a, handleInputChange, handleFormSubmit }) {
           id="Title"
           type="text"
           value={a}
-          placeholder="To Kill a Mockingbird"
+          placeholder="War of the Worlds"
           name="a"
           onChange={handleInputChange}
           required
