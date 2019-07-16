@@ -8,6 +8,8 @@ const db = require ("../models");
 module.exports = {
     findAll: function (req, res) {
         const {query: params} = req;
+        // concat into the string
+        console.log(params);
         axios.get("https://www.googleapis.com/books/v1/volumes",{params})
         .then(results => results.data.items.filter(result =>
             result.volumeInfo.title &&
