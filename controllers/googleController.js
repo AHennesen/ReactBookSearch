@@ -14,7 +14,7 @@ module.exports = {
             result.volumeInfo.infoLink &&
             result.volumeInfo.authors &&
             result.volumeInfo.description &&
-            result.volumeInfo.imageLinks &&
+            result.volumeInfo.imageLinks && 
             result.volumeInfo.imageLinks.thumbnail
             ))
             .then(apiBooks =>
