@@ -12,7 +12,7 @@ class HomePage extends Component {
   state = {
     books: [],
     a: "",
-    message: "Search For A Book To Begin!"
+    message: "Search For A Book To Start!"
   };
 
   handleInputChange = event => {
